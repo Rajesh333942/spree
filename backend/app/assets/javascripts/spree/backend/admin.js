@@ -184,7 +184,7 @@ function show_flash (type, message) {
   var existingAlert = document.querySelector('.flash-alert')
 
   if (existingAlert) {
-    existingAlert.remove()
+    existingAlert.hide()
   }
 
   var flashDiv = $('.alert-' + type)
